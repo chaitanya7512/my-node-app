@@ -8,7 +8,8 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
 
-# Bundle app source
+# Bundle app so
+
 COPY . .
 
 # Expose port and start app
