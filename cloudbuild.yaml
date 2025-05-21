@@ -11,4 +11,8 @@ steps:
            '--allow-unauthenticated']
 
 images:
-  - 'gcr.io/$PROJECT_ID/my-node-app'
+  - 'gcr.io/playground-s-11-6ade565e/my-node-app'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+
